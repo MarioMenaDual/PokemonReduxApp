@@ -13,30 +13,30 @@
     margin: 50px !important;
     width: 900px !important;
   }
-  
+
   .left-container,
   .right-container {
     border: 3px solid black !important;
-    width: 50% !important; 
+    width: 50% !important;
   }
-  
+
   .right-container {
     border-left: none !important;
   }
-  
+
   .left-container {
     background: #E71D23 !important;
     height: 120% !important;
     width: calc(50% + 50px) !important;
   }
-  
+
   .left-container__top-section {
     border-bottom: 3px solid black !important;
     display: flex !important;
     height: 50px !important;
     padding: 8px !important;
   }
-  
+
   .top-section__blue {
     background: radial-gradient(farthest-corner at 10px 10px, white, #369CD4, #369CD4) !important;
     border-radius: 50% !important;
@@ -45,12 +45,12 @@
     height: 30px !important;
     width: 30px !important;
   }
-  
+
   .top-section__small-buttons {
     display: flex !important;
     margin: 0 25px !important;
   }
-  
+
   .top-section__red,
   .top-section__yellow,
   .top-section__green {
@@ -60,25 +60,25 @@
     margin-right: 5px !important;
     width: 10px !important;
   }
-  
+
   .left-container__main-section-container {
     display: flex !important;
     height: calc(100% - 50px) !important;
   }
-  
+
   .left-container__main-section {
     height: 100% !important;
     padding: 25px !important;
     width: 550px !important;
   }
-  
+
   .main-section__white {
     background: #DEDEDE !important;
     border: 3px solid black !important;
     box-shadow: inset 0 0 3px 3px rgba(0,0,0,.3) !important;
     height: 450px !important;
   }
-  
+
   .main-section__black {
     background: black !important;
     height: calc(100% - 50px) !important;
@@ -86,48 +86,48 @@
     padding: 10px !important;
     width: calc(100% - 50px) !important;
   }
-  
+
   .main-screen {
     border-radius: 15px !important;
     height: 100% !important;
     padding: 15px !important;
   }
-  
+
   .screen__header {
     align-items: center !important;
     display: flex !important;
     justify-content: space-between !important;
   }
-  
+
   .poke-name {
     color: white !important;
     font-size: 25px !important;
     font-weight: bold !important;
   }
-  
+
   .poke-id {
     color: rgba(0,0,0,.5) !important;
     font-size: 45px !important;
     font-weight: bold;
   }
-  
+
   .screen__image {
     display: flex !important;
     justify-content: space-around !important;
   }
-  
+
   .poke-front-image,
   .poke-back-image {
     height: 200px !important;
     width: 200px !important;
   }
-  
+
   .screen__description {
     display: flex !important;
     height: 100px !important;
     justify-content: space-around !important;
   }
-  
+
   .screen__stats {
     background: rgba(0,0,0,.3);
     border-radius: 5px !important;
@@ -138,12 +138,12 @@
     justify-content: space-between !important;
     padding: 20px 15px !important;
   }
-  
+
   .stats__types {
     height: 100%;
     padding: 5px;
   }
-  
+
   .poke-type-one,
   .poke-type-two {
     background: rgba(255,255,255,.3);
@@ -153,27 +153,27 @@
     padding: 10px;
     text-align: center;
   }
-  
+
   .left-container__controllers {
     align-items: center !important;
     display: flex !important;
     justify-content: space-around !important;
     margin: 10px 25px 0 !important;
   }
-  
+
   .controllers__d-pad {
     display: grid !important;
     grid-template-columns: repeat(3, 1fr) !important;
     grid-template-rows: repeat(3, 1fr) !important;
   }
-  
+
   .d-pad__cell {
     background: black !important;
     box-shadow: 0 0 2px 2px rgba(0,0,0, .3) !important;
     height: 25px !important;
     width: 25px !important;
   }
-  
+
   .d-pad__cell.top {
     border-left: 1px solid dimgrey !important;
     border-radius: 5px 5px 0 0 !important;
@@ -182,7 +182,7 @@
     grid-column: 2 / span 1 !important;
     grid-row: 1 / span 1 !important;
   }
-  
+
   .d-pad__cell.left {
     border-bottom: 1px solid dimgrey !important;
     border-left: 1px solid dimgrey !important;
@@ -191,12 +191,12 @@
     grid-column: 1 / span 1 !important;
     grid-row: 2 / span 1 !important;
   }
-  
+
   .d-pad__cell.middle {
     grid-column: 2 / span 1 !important;
     grid-row: 2 / span 1 !important;
   }
-  
+
   .d-pad__cell.right {
     border-bottom: 1px solid dimgrey !important;
     border-radius: 0 5px 5px 0 !important;
@@ -205,7 +205,7 @@
     grid-column: 3 / span 1 !important;
     grid-row: 2 / span 1 !important;
   }
-  
+
   .d-pad__cell.bottom {
     border-bottom: 1px solid dimgrey !important;
     border-left: 1px solid dimgrey !important;
@@ -214,13 +214,13 @@
     grid-column: 2 / span 1 !important;
     grid-row: 3 / span 1 !important;
   }
-  
+
   .controllers__buttons {
     display: flex !important;
     justify-content: space-around !important;
     width: 100px !important;
   }
-  
+
   .buttons__button {
     align-items: center !important;
     background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
@@ -228,20 +228,22 @@
     border-radius: 50% !important;
     border: 1px solid dimgrey !important;
     box-shadow: 0 0 2px 2px rgba(0,0,0, .3) !important;
-    color: rgba(255,255,255,.75) !important;
+    color: white !important;
     display: flex !important;
     height: 50px !important;
     justify-content: center !important;
     width: 50px !important;
+    font-weight: bolder;
   }
-  
+
   .buttons__button_shiny {
+    font-weight: bold;
     align-items: center !important;
     background-image: linear-gradient(160deg, #a54e07, #b47e11, #fef1a2, #bc881b, #a54e07);
     border-radius: 50% !important;
     border: 1px solid dimgrey !important;
     box-shadow: 0 0 2px 2px rgba(0,0,0, .3) !important;
-    color: rgba(255,255,255,.75) !important;
+    color: white !important;
     display: flex !important;
     height: 50px !important;
     justify-content: center !important;
@@ -272,13 +274,13 @@
     margin-top: 5px !important;
     margin-right: 7px !important;
   }
-  
+
   .buttons__button:last-child {
      margin-top: -5px !important;
      margin-right: -7px !important;
    }
-  
-  
+
+
   .left-container__right {
     border-left: 3px solid black !important;
     display: flex !important;
@@ -287,47 +289,47 @@
     justify-content: space-between !important;
     width: 50px !important;
   }
-  
+
   .left-container__hinge {
     background: linear-gradient(to right, #7F100F, #E71D23, #E71D23, #7F100F) !important;
     height: 75px !important;
     width: 100% !important;
   }
-  
+
   .left-container__hinge:first-child {
     border-bottom: 3px solid black !important;
   }
-  
+
   .left-container__hinge:last-child {
     border-top: 3px solid black !important;
   }
-  
+
   .top-section__red {
     background: #7F100F !important;
   }
-  
+
   .top-section__yellow {
     background: #EDF18E !important;
   }
-  
+
   .top-section__green {
     background: #33915A !important;
   }
-  
+
   .right-container {
     background: #E71D23 !important;
     height: calc(100% - 50px) !important;
     padding: 25px !important;
     width: calc(50% - 50px) !important;
   }
-  
+
   .right-container__black {
     background: black !important;
     box-shadow: 0 0 2px 2px rgba(0,0,0,.3) !important;
     height: 450px !important;
     padding: 10px !important;
   }
-  
+
   .right-container__screen {
     background: #43B0F2 !important;
     border-radius: 15px !important;
@@ -337,18 +339,18 @@
     height: 100% !important;
     padding: 15px 15px 0 !important;
   }
-  
+
   .list-item:active {
     background: #1280f2 !important;
     color: white !important;
   }
-  
+
   .right-container__buttons {
     display: flex !important;
     justify-content: space-around !important;
     margin-top: 25px !important;
   }
-  
+
   .left-button,
   .right-button {
     align-items: center !important;
@@ -363,17 +365,17 @@
     text-transform: uppercase !important;
     width: 100px !important;
   }
-  
+
   .left-button:active,
   .right-button:active {
     box-shadow: inset 0 0 2px 2px rgba(0,0,0,.3) !important;
   }
-  
-  
+
+
   .hide {
    background-image: url("../img/loading.gif") !important;
   }
-  
+
   .chip {
     display: inline-block !important;
     height: 40px !important;
