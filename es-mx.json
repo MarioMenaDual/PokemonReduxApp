@@ -1,0 +1,15 @@
+{
+    "TEXTOS": {
+      "Label": "",
+      "Mensajes": {
+        "DISPERSIONREPORTMENU": "Trámites SIVU",
+        "DOCUMENTMENU": "Documentos",
+        "STARTMENU": "Inicio",
+        "TENANTSMENU": "Prestadores de servicio",
+        "CATALOGMENU": "Catálogos",
+        "PARTHERSMENU": "Partners",
+        "ALERTMENU": "Alertas de MTO"
+      }
+    }
+
+}
